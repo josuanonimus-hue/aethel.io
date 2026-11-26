@@ -17,4 +17,4 @@ Sitio estático: no necesita instalar nada. Abrí `index.html` en el navegador o
 - **Precios y niveles:** `js/data.js`, dentro de `levels`.
 - **Tu WhatsApp:** `js/data.js` (`WA`) y los links `wa.me` de `index.html`.
 - **Cotización del dólar:** `js/data.js` (`RATE`) y el texto de aclaración en `index.html`.
-- **Imagen para compartir:** cuando tengas dominio, cambiá `og:image` en `index.html` por la dirección completa, por ejemplo `https://tudominio.com.py/assets/img/og.png`.
+- **Dirección de la web:** si más adelante conectás un dominio propio, cambiá `thiago-yfz.pages.dev` por tu dominio en `index.html` (las líneas `canonical`, `og:url`, `og:image` y `twitter:image`).

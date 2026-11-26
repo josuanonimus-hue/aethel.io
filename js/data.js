@@ -24,8 +24,8 @@ var SITE = {
   levels: [
 { n: "01", name: "Básica", base: 250, who: "Landing page para emprendedores, profesionales y promociones.", time: "5 a 7 días", f: ["Una página con botón de WhatsApp", "Diseño para celular, tablet y PC", "1 ronda de ajustes"], mname: "Esencial", m: 30 },
 { n: "02", name: "Corporativa", base: 600, who: "Presencia profesional para pymes y negocios.", time: "10 a 15 días", f: ["Hasta 5 secciones con tu identidad de marca", "SEO básico y correos corporativos", "2 rondas de ajustes"], mname: "Esencial", m: 30 },
-{ n: "03", name: "Profesional", base: 1200, who: "Con gestor de contenido, para quienes actualizan seguido.", time: "20 a 30 días", f: ["Hasta 10 secciones y panel administrable", "Blog, reservas, citas o cotizaciones", "3 rondas de ajustes"], mname: "Profesional", m: 60 },
-{ n: "04", name: "Avanzada", base: 2500, who: "E-commerce o sistema a medida con usuarios.", time: "35 a 60 días", f: ["Tienda online con carrito y panel de ventas", "Registro de usuarios e integraciones", "30 días de soporte posterior"], mname: "Avanzado", m: 120 }
+{ n: "03", cuotas: true, name: "Profesional", base: 1200, who: "Con gestor de contenido, para quienes actualizan seguido.", time: "20 a 30 días", f: ["Hasta 10 secciones y panel administrable", "Blog, reservas, citas o cotizaciones", "3 rondas de ajustes"], mname: "Profesional", m: 60 },
+{ n: "04", cuotas: true, name: "Avanzada", base: 2500, who: "E-commerce o sistema a medida con usuarios.", time: "35 a 60 días", f: ["Tienda online con carrito y panel de ventas", "Registro de usuarios e integraciones", "30 días de soporte posterior"], mname: "Avanzado", m: 120 }
 ],
   needs: [
 { label: "Quiero que me contacten por WhatsApp con una página simple", lv: 0 },

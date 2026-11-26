@@ -57,13 +57,14 @@ return '<article class="level hv" data-sel="' + sel + '">' +
 btn("pick", "level", i, sel, sel ? "Nivel elegido" : "Elegir este nivel") + "</article>";
 }).join("");
 var cl = L[S.level], total = cl.base * mult, sena = cl.base * 0.3;
-var text = "Hola Thiago, me interesa el Nivel " + cl.n + " · " + cl.name + " (" + money(total) + ")." + (S.dom ? " Con dominio y servidor." : "") + (S.maint ? " Con mantenimiento mensual." : "") + " ¿Podemos hablar?";
+var text = "Hola Thiago, me interesa el Nivel " + cl.n + " · " + cl.name + " (" + money(total) + ")." + (S.dom ? " Con dominio y servidor." : "") + (S.maint ? " Con mantenimiento mensual." : "") + (cl.cuotas ? " Me interesa pagar el saldo en cuotas." : "") + " ¿Podemos hablar?";
 $("#summary").innerHTML =
 '<div style="flex:1 1 420px;display:flex;flex-direction:column;gap:8px">' +
 '<span style="font-size:14px;color:#FDBA74;font-weight:600">NIVEL ' + cl.n + " · " + cl.name + "</span>" +
 '<div style="font-family:Sora,sans-serif;font-weight:700;font-size:clamp(32px,5vw,44px);letter-spacing:-0.02em;color:#fff">' + money(total) + "</div>" +
 "<div>Seña para empezar (30%): <strong>" + money(sena) + "</strong></div>" +
 "<div>Saldo contra entrega: <strong>" + money(total - sena) + "</strong></div>" +
+(cl.cuotas ? "<div>Saldo también en <strong>cuotas</strong> (a coordinar).</div>" : "") +
 "<div>Entrega estimada: <strong>" + cl.time + "</strong></div>" +
 (S.dom ? "<div>Incluye dominio y servidor (+5%).</div>" : "") +
 (S.maint ? "<div>Mantenimiento " + cl.mname + ": <strong>" + money(cl.m) + " por mes</strong></div>" : "") +
