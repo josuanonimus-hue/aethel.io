@@ -9,6 +9,8 @@ Sitio estático: no necesita instalar nada. Abrí `index.html` en el navegador o
 - `js/data.js`: los datos que más vas a cambiar: precios, niveles, textos, trabajos, capturas y condiciones.
 - `js/main.js`: la lógica (pestañas, armador de paquete, proceso, condiciones).
 - `assets/img/`: capturas de los trabajos e imagen para compartir el link (`og.png`).
+- `assets/icons/`: el favicon (cursor naranja) en SVG y PNG para celulares.
+- `favicon.ico` y `site.webmanifest`: se quedan en la raíz, es donde los navegadores los buscan.
 
 ## Cosas para editar
 
