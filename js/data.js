@@ -36,12 +36,12 @@ var SITE = {
   steps: [
 { n: "1", title: "Elegís tu nivel", text: "Según tu proyecto y tu presupuesto, elegimos el nivel que mejor encaja." },
 { n: "2", title: "Seña del 30% e inicio", text: "Con la seña del 30% comienza el proceso de trabajo." },
-{ n: "3", title: "Desarrollo y ajustes", text: "Armo tu sitio y lo ajustamos juntos en las rondas incluidas en tu nivel." },
-{ n: "4", title: "Entrega y saldo", text: "Te entrego el sitio terminado. El saldo se abona contra entrega, o en cuotas en los niveles 3 y 4." }
+{ n: "3", title: "Desarrollo y ajustes", text: "Armamos tu sitio y lo ajustamos juntos en las rondas incluidas en tu nivel." },
+{ n: "4", title: "Entrega y saldo", text: "Te entregamos el sitio terminado. El saldo se abona contra entrega, o en cuotas en los niveles 3 y 4." }
 ],
   faqs: [
 { title: "Seña y saldo", text: "Con una seña del 30% sobre el precio base empezamos. El saldo se paga contra entrega; en los niveles 3 y 4 también en cuotas." },
-{ title: "Precios negociables", text: "Los precios de cada nivel son una referencia y se pueden negociar. Contame tu proyecto y tu presupuesto, y buscamos la mejor forma de hacerlo posible." },
+{ title: "Precios negociables", text: "Los precios de cada nivel son una referencia y se pueden negociar. Contanos tu proyecto y tu presupuesto, y buscamos la mejor forma de hacerlo posible." },
 { title: "Dominio y servidor (+5%)", text: "Es opcional. Activamos tu dominio y configuramos el servidor. Las renovaciones anuales se pagan aparte." },
 { title: "Precio fijo al cerrar", text: "Al cerrar el trato, el precio queda fijo aunque el dólar varíe después." },
 { title: "Ajustes y extras", text: "Cada nivel incluye sus rondas de ajustes. Lo que exceda el alcance del nivel se cotiza aparte, con tu aprobación." }

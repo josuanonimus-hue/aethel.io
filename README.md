@@ -1,4 +1,4 @@
-# Portfolio · Thiago Aranda
+# Aethel.io · Portfolio web (por Thiago Aranda)
 
 Sitio estático: no necesita instalar nada. Abrí `index.html` en el navegador o subí la carpeta completa a Netlify, Vercel o GitHub Pages.
 

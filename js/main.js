@@ -57,7 +57,7 @@ return '<article class="level hv" data-sel="' + sel + '">' +
 btn("pick", "level", i, sel, sel ? "Nivel elegido" : "Elegir este nivel") + "</article>";
 }).join("");
 var cl = L[S.level], total = cl.base * mult, sena = cl.base * 0.3;
-var text = "Hola Thiago, me interesa el Nivel " + cl.n + " · " + cl.name + " (" + money(total) + ")." + (S.dom ? " Con dominio y servidor." : "") + (S.maint ? " Con mantenimiento mensual." : "") + (cl.cuotas ? " Me interesa pagar el saldo en cuotas." : "") + " ¿Podemos hablar?";
+var text = "Hola Aethel.io, me interesa el Nivel " + cl.n + " · " + cl.name + " (" + money(total) + ")." + (S.dom ? " Con dominio y servidor." : "") + (S.maint ? " Con mantenimiento mensual." : "") + (cl.cuotas ? " Me interesa pagar el saldo en cuotas." : "") + " ¿Podemos hablar?";
 $("#summary").innerHTML =
 '<div style="flex:1 1 420px;display:flex;flex-direction:column;gap:8px">' +
 '<span style="font-size:14px;color:#FDBA74;font-weight:600">NIVEL ' + cl.n + " · " + cl.name + "</span>" +
