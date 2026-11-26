@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thiago Aranda · Desarrollo web, apps y software a medida en Paraguay</title>
+<meta name="description" content="Sitios web, apps y software a medida para cualquier rubro. 4 niveles: desde una landing page hasta una tienda online. Armá tu paquete y pedí tu presupuesto por WhatsApp.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111111'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23FB923C'%3ETA%3C/text%3E%3C/svg%3E">
+<!-- IMPORTANTE: cuando tengas tu dominio, cambiá og:image por la dirección completa, por ejemplo https://tudominio.com.py/assets/img/og.png -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PY">
+<meta property="og:title" content="Thiago Aranda · Desarrollo web, apps y software a medida">
+<meta property="og:description" content="Webs para cualquier rubro, en 4 niveles. Armá tu paquete y mirá el precio al instante.">
+<meta property="og:image" content="assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:16px;padding-top:22px;padding-bottom:22px">
+<nav aria-label="Principal" style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;font-size:15px;font-weight:500">
+<a href="#trabajos">Trabajos</a>
+<a href="#niveles">Armá tu paquete</a>
+<a href="#proceso">Proceso</a>
+<a href="https://wa.me/595971775272" style="background:#111;color:#fff;padding:12px 20px;border-radius:6px">WhatsApp</a>
+</nav>
+</header>
+
+<main>
+<div class="wrap" style="padding-top:72px;padding-bottom:80px;display:flex;flex-direction:column;gap:36px">
+<h1 style="font-weight:700;font-size:clamp(40px,7vw,76px);line-height:1.02;letter-spacing:-0.035em;max-width:980px">Webs que tu negocio <span style="color:#C2410C">necesita</span>, al nivel que necesitás.</h1>
+<p style="font-size:clamp(18px,2.4vw,21px);color:#44403C;max-width:640px">Sitios web, apps y software a medida. Para cualquier rubro: desde una página simple hasta una tienda online o un sistema propio.</p>
+<div class="row" style="gap:12px;align-items:center">
+<a class="btn btn-or" href="#niveles">Armá tu paquete y mirá el precio</a>
+<a class="btn btn-ol" href="https://wa.me/595971775272">Hablemos por WhatsApp</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;border-top:1px solid #111;margin-top:24px">
+<div class="stat"><strong>4</strong><span>niveles de servicio</span></div>
+<div class="stat"><strong>₲ 1.435.000</strong><span>precio de partida</span></div>
+<div class="stat"><strong>5 a 60 días</strong><span>de entrega según el nivel</span></div>
+<div class="stat"><strong>30%</strong><span>de seña para empezar</span></div>
+</div>
+</div>
+
+<section id="trabajos" style="background:#F5F5F4">
+<div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<h2 style="font-weight:700;font-size:clamp(30px,4.5vw,40px);letter-spacing:-0.02em">Webs que ya publiqué</h2>
+<p style="color:#44403C;font-size:18px">Tocá cada trabajo para ver qué incluye.</p>
+</div>
+<div class="row" id="workTabs"></div>
+<article class="panel" id="workPanel"></article>
+</div>
+</section>
+
+<section id="niveles">
+<div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<h2 style="font-weight:700;font-size:clamp(30px,4.5vw,40px);letter-spacing:-0.02em">Armá tu paquete</h2>
+<p style="color:#44403C;font-size:18px">Contame qué necesitás, ajustá las opciones y mirá el precio al instante.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+<h3 style="font-size:20px">1. ¿Qué necesitás?</h3>
+<div class="row" style="gap:12px" id="needs"></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+<h3 style="font-size:20px">2. Elegí tu nivel y las opciones</h3>
+<div class="row" style="gap:12px;align-items:center" id="controls"></div>
+<div class="row" style="gap:16px" id="levels"></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+<h3 style="font-size:20px">3. Tu resumen</h3>
+<div class="sum dk" id="summary"></div>
+<p style="font-size:14px;color:#57534E">Los precios base están en dólares y se muestran en guaraníes a ₲ 5.740 por US$ 1 (referencial). El dominio y servidor y el mantenimiento mensual son opcionales. Los precios son negociables: contame tu presupuesto y lo conversamos.</p>
+</div>
+</div>
+</section>
+
+<section id="proceso" class="dk" style="background:#111;color:#fff">
+<div class="wrap" style="display:flex;flex-direction:column;gap:32px">
+<h2 style="font-weight:700;font-size:clamp(30px,4.5vw,40px);letter-spacing:-0.02em">Así trabajamos</h2>
+<div class="row" id="steps"></div>
+<div id="stepPanel" style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start;border-top:1px solid #57534E;padding-top:32px"></div>
+</div>
+</section>
+
+<section>
+<div class="wrap" style="max-width:948px;display:flex;flex-direction:column;gap:28px">
+<h2 style="font-weight:700;font-size:clamp(30px,4.5vw,40px);letter-spacing:-0.02em">Condiciones, claras desde el inicio</h2>
+<div id="faqs" style="border-top:1px solid #111"></div>
+</div>
+</section>
+
+<section style="background:#C2410C;color:#fff">
+<div class="wrap" style="display:flex;flex-wrap:wrap;gap:32px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 440px;display:flex;flex-direction:column;gap:12px">
+<h2 style="font-weight:700;font-size:clamp(34px,5vw,48px);letter-spacing:-0.02em">¿Empezamos?</h2>
+<p style="font-size:19px;max-width:520px">Elegí el nivel que mejor encaja con tu proyecto y, con la seña del 30%, comenzamos el proceso.</p>
+</div>
+<a class="btn btn-bk" href="https://wa.me/595971775272" style="padding:20px 34px">WhatsApp +595 971 775 272</a>
+</div>
+</section>
+</main>
+
+<footer class="wrap" style="padding-top:28px;padding-bottom:40px;font-size:14px;color:#57534E">Thiago Aranda Servián · Desarrollador web, móvil y software · Programador semi-senior</footer>
+
+<script src="js/data.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
